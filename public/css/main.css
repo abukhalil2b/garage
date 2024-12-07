@@ -1,0 +1,236 @@
+/*@font-face {
+  font-family: "Helvetica Neue";
+  src:
+  url('../fonts/HelveticaNeueLTW20-Light.woff') format('woff'),
+  url('../fonts/HelveticaNeueLTW20-Light.svg') format('svg'),
+  url('../fonts/HelveticaNeueLTW20-Light.eot') format('embedded-opentype');
+}
+@font-face {
+  font-family: "KFC Naskh";
+  src:
+  url('../fonts/KFC_naskh.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  src:
+  url('../fonts/HelveticaNeueLTW20-Bold.woff') format('woff'),
+  url('../fonts/HelveticaNeueLTW20-Bold.svg') format('svg'),
+  url('../fonts/HelveticaNeueLTW20-Bold.eot') format('embedded-opentype');
+}
+
+
+
+body {
+  font-family: 'Helvetica Neue';
+  background-color:#EEE;
+}*/
+/* Start Reset*/
+textarea{
+  border-radius: 5px;
+  width: 100%;
+  height: 300px;
+  padding: 5px;
+}
+input{
+  border:1px solid #bcbcbc;
+  border-radius: 4px !important;
+  width: 200px;
+  height: 40px;
+  margin: 3px;
+  padding-left: 5px;
+}
+button{
+  margin: 1px;
+}
+p{
+  padding: 5px;
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  color: #817c6f;
+}
+a{
+  color: #503e0d;
+}
+a:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+button:hover{
+  cursor: pointer;
+}
+
+select{
+  border:1px solid #bcbcbc;
+  border-radius: 2px;
+  width: 150px;
+  height: 40px;
+}
+h5{
+  margin: 3px;
+  font-weight: bold;
+  color: #164f66;
+}
+/* End Reset*/
+
+/* Start Color */
+.has-error{
+  color: red;
+}
+.has-error-border{
+ 
+  border: red solid 1px;
+}
+.input-plate{
+    width:130px;
+}
+.input-zone{
+    width:60px;
+}
+.primary{
+  color: #77c1de;
+}
+.secondry{
+  color: #34a0ca;
+}
+.mytable{
+  width: 100%;
+}
+.mytable thead{
+  font-weight: bold;
+  color: #503e0d;
+}
+/* Start button*/
+.mybtn{
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: .25rem;
+  transition: all .15s ease-in-out;
+  background-color: #77c1de;
+}
+.mybtn-login{
+  display: block;
+  background-color: #77c1de;
+  color: #fff;
+  width: 100%;
+  margin:5px;
+}
+.mybtn-login:hover{
+  background-color: #b3dae9;
+}
+.mybtn-new{
+  display: block;
+  background-color: #77c1de;
+  width: 150px;
+  color: #fff;
+  margin:5px;
+}
+.mybtn-new:hover{
+  display: block;
+  background-color: #a0cde0;
+  width: 150px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mybtn-search{
+  background-color: #77c1de;
+}
+.mybtn-search:hover{
+  background-color: #e2d090;
+}
+.mybtn-add{
+  background-color: #77c1de;
+  width: 100%;
+}
+.mybtn-add:hover{
+  background-color: #ccdbfa;
+}
+
+.mybtn-save{
+  background-color: #77c1de;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.mybtn-save:hover{
+  background-color: #e4b288;
+}
+
+.mybtn-history{
+  font-weight: bold;
+  margin-left: 15px;
+  float: right;
+}
+.mybtn-tel{
+  font-weight: bold;
+  margin-left: 15px;
+}
+/* End button*/
+
+.lable{
+  display: inline-block;
+  width: 18%;
+  font-size: 14px;
+}
+
+.bar{
+  background-color: #77c1de;
+  padding: 10px;
+
+}
+.container{
+  padding: 10px;
+}
+
+.copyright{
+  background-color: #77c1de;
+  padding: 10px;
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Start Input*/
+.myinput{
+  width: 100%;
+}
+/* End Input*/
+
+/*create complaints*/
+.comp{
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0px !important;
+  background-color: #eee0;
+  outline: none;
+  height: 20px;
+}
+.pb-50{
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+/*create complaints*/
+
+/*create customer*/
+.pb-pt-60{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+/*create customer*/
+
